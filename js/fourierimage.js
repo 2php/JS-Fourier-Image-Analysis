@@ -6,6 +6,8 @@
 | @edit 2014/06/15 |
 \******************/
 
+//CORS PROXY !!! STRIP 'HTTP://'
+
 /**********
  * config */
 var dims = [-1, -1]; //will be set later
@@ -483,15 +485,3 @@ Complex.prototype.times = function(z) {
 };
 
 window.addEventListener('load', initFourierImage);
-
-
-
-
-
-
-
-
-
-
-
-
